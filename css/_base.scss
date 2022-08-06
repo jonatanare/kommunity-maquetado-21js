@@ -1,0 +1,35 @@
+@use './variables';
+@use './mixins';
+
+body {
+    font-family: variables.$font;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 800;
+
+    @include mixins.responsive('md') {
+        font-size: 3rem;
+    }
+}
+
+h2, h3 {
+    font-size: 2rem;
+    font-weight: 500;
+
+    @include mixins.responsive('md') {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+button, a {
+    font-size: 1rem;
+    font-weight: 700;
+}

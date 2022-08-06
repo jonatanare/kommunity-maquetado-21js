@@ -1,0 +1,98 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+h2, h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  h2, h3 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+button, a {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.header {
+  background: linear-gradient(83.1deg, rgba(154, 46, 52, 0) -0.08%, #C87B4D 93.59%), url("../../assets/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFFFFF;
+}
+.header .navbar .nav-link {
+  color: #FFFFFF;
+  margin-right: 56px;
+}
+.header .navbar .navbar-toggler-icon {
+  background-image: url("../../assets/icons/menu.svg");
+}
+.header__introduction {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.header__title {
+  color: #F0D3B5;
+  margin: 33px 0;
+}
+.header__img {
+  margin-bottom: 33px;
+}
+.header__paragraph {
+  font-style: normal;
+  line-height: 24px;
+}
+.header__paragraph em {
+  font-style: normal;
+  line-height: 24px;
+  color: #F5CC6A;
+}
+.header__paragraph strong {
+  color: #F5CC6A;
+  font-style: normal;
+  line-height: 24px;
+}
+.header__invitations {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.header__invitation {
+  margin-left: 8px;
+}
+
+.button {
+  border-radius: 100px;
+  border: none;
+  padding: 10px 15px;
+  width: 150px;
+  color: #FFFFFF;
+}
+.button--fill {
+  background-color: #F2994A;
+}
+.button--without-fill {
+  background-color: transparent;
+  border: 1px solid #F2994A;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,56 @@
+@use '../variables';
+@use '../mixins';
+
+.header {
+    background: linear-gradient(83.1deg, rgba(154, 46, 52, 0) -0.08%, #C87B4D 93.59%), url('../../assets/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: variables.$white;
+
+    .navbar {
+        .nav-link {
+            color:variables.$white; 
+            margin-right: 56px;
+        }
+        .navbar-toggler-icon {
+            background-image: url('../../assets/icons/menu.svg');
+        }
+    }
+
+    &__introduction {
+        text-align: center;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    &__title {
+        color: variables.$brown-600;
+        margin: 33px 0;
+    }
+    &__img {
+        margin-bottom: 33px;
+    }
+    &__paragraph {
+        font-style: normal;
+        line-height: 24px;
+        em {
+            font-style: normal;
+            line-height: 24px;
+            color: variables.$brown-700;
+        }
+        strong {
+            color: variables.$brown-700;
+            font-style: normal;
+            line-height: 24px;
+        }
+    }
+
+    &__invitations {
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+    &__invitation {
+        margin-left: 8px;
+    }
+}

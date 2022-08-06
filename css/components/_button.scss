@@ -1,0 +1,17 @@
+@use '../variables';
+
+.button {
+    border-radius: 100px;
+    border: none;
+    padding: 10px 15px;
+    width: 150px;
+    color: variables.$white;
+
+    &--fill {
+        background-color: variables.$brown-800;
+    }
+    &--without-fill {
+        background-color: transparent;
+        border: 1px solid #F2994A;
+    }
+}
