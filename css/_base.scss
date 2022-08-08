@@ -17,6 +17,7 @@ h1 {
 h2, h3 {
     font-size: 2rem;
     font-weight: 500;
+    color: variables.$brown-900;
 
     @include mixins.responsive('md') {
         font-size: 2.5rem;
@@ -27,6 +28,7 @@ h2, h3 {
 p {
     font-size: 1rem;
     font-weight: 400;
+    color: variables.$dark-900;
 }
 
 button, a {
