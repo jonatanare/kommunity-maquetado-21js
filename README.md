@@ -29,4 +29,4 @@ Hola mis queridos Koders!!
 
 4. Subir el repositorio a uno remoto en github.
 
-Design: [Link - Figma](https://www.figma.com/file/RRstYukWTWarFgE16Oh4Ww/Maquetado-python?node-id=55%3A557)  
+Design: [Link - Figma](https://www.figma.com/file/RRstYukWTWarFgE16Oh4Ww/Maquetado-python?node-id=55%3A557)  # kommunity-maquetado-21js
