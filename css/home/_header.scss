@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-position: center;
     color: variables.$white;
+    padding-bottom: 32px;
 
     .navbar {
         .nav-link {
@@ -15,6 +16,29 @@
         }
         .navbar-toggler-icon {
             background-image: url('../../assets/icons/menu.svg');
+        }
+
+        .inputSearch{
+            @include mixins.responsive('lg'){
+                width: 124px;
+                height: 40px;
+                background-color: transparent;
+                color: variables.$white;
+                padding-left: 50px;
+                padding-right: 0;
+
+                &::placeholder{
+                    color: variables.$white;
+                }
+                
+            }
+        }
+
+        .icon-search {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
         }
     }
 
@@ -33,6 +57,11 @@
     &__paragraph {
         font-style: normal;
         line-height: 24px;
+        margin-bottom: 32px;
+
+        @include mixins.responsive('lg'){
+            margin-bottom: 64px;
+        }
         em {
             font-style: normal;
             line-height: 24px;
@@ -49,8 +78,20 @@
         list-style: none;
         padding: 0;
         display: flex;
+        
+        @include mixins.responsive('lg'){
+            margin-bottom: 19px;
+        }
     }
     &__invitation {
         margin-left: 8px;
+    }
+
+    &__link-invite {
+        margin-right: 45px;
+
+        img{
+            width: 16px;
+        }
     }
 }

@@ -52,11 +52,14 @@
               </li>
             </ul>
             <span class="navbar-text">
-              <form class="d-flex" role="search">
+              <form class="d-flex position-relative" role="search">
+                <span class="icon-search">
+                  <img src="./assets/icons/search-icon.svg" alt="Icon search">
+                </span>
                 <input
-                  class="form-control me-2"
+                  class="form-control inputSearch me-2"
                   type="search"
-                  placeholder="Search"
+                  placeholder="Buscar"
                   aria-label="Search"
                 />
               </form>
@@ -86,11 +89,11 @@
             class="col-12 col-md-6 d-flex flex-column align-items-center flex-md-row align-items-md-start justify-content-md-start"
           >
             <button class="button button--fill">Ver nominados</button>
-            <button class="button button--without-fill mt-3 mt-md-0 ms-md-3">
+            <button class="button button--without-fill mt-3 mb-4 mt-md-0 ms-md-3">
               Votar
             </button>
           </div>
-          <div class="col-12 col-md-6 d-none d-md-flex justify-content-md-end">
+          <div class="col-12 d-flex flex-column col-md-6 d-none d-md-flex justify-content-md-end align-items-lg-end">
             <ul class="header__invitations">
               <li class="header__invitation">
                 <img src="./assets/logos/left-laurel.png" alt="" />
@@ -111,6 +114,9 @@
                 <img src="./assets/avatars/avatar-5.png" alt="" />
               </li>
             </ul>
+            <a class="nav-link header__link-invite" href="#">Conoce al jurado invitado
+              <img src="./assets/icons/arrow-right-icon.svg" alt="icon arrow right">
+            </a>
           </div>
         </div>
       </div>
