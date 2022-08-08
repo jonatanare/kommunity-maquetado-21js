@@ -279,6 +279,7 @@ button, a {
 }
 
 .footer {
+  margin-top: 24px;
   padding: 31px 0;
   background-color: #C87B4D;
 }
