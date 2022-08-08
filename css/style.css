@@ -278,6 +278,64 @@ button, a {
   width: 66px;
 }
 
+.footer {
+  padding: 31px 0;
+  background-color: #C87B4D;
+}
+@media screen and (min-width: 992px) {
+  .footer {
+    padding-bottom: 23px;
+  }
+}
+.footer .navegation .nav-item {
+  margin-bottom: 8px;
+}
+.footer .navegation .nav-item .nav-link {
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.footer .follow__text {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.footer .follow .nav-item {
+  margin-bottom: 8px;
+}
+.footer .follow__link {
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.footer .rrss {
+  margin-top: 16px;
+}
+.footer .copyright {
+  margin-top: 24px;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+.footer .poweredBy {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
 .button {
   border-radius: 100px;
   border: none;
