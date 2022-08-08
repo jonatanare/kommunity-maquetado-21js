@@ -159,7 +159,7 @@
 
         .feature {
             margin-top: 24px;
-            width: 54px;
+            width: auto;
             height: 24px;
             color: variables.$white;
             font-style: normal;
@@ -186,7 +186,7 @@
 
             &--uxui {
                 background-color: variables.$brown-700;
-                width: 66px;
+                width: auto;
             }
         }
     }

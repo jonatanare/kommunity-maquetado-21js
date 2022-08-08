@@ -259,7 +259,7 @@ button, a {
 }
 .nominatedProjects__card .feature {
   margin-top: 24px;
-  width: 54px;
+  width: auto;
   height: 24px;
   color: #FFFFFF;
   font-style: normal;
@@ -285,7 +285,7 @@ button, a {
 }
 .nominatedProjects__card .feature--uxui {
   background-color: #F5CC6A;
-  width: 66px;
+  width: auto;
 }
 
 .footer {
