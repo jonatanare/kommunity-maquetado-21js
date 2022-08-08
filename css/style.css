@@ -157,6 +157,14 @@ button, a {
 .nominatedProjects__nominated em {
   font-weight: 700;
 }
+.nominatedProjects .wrapper-avatar {
+  margin-top: 16px;
+}
+@media screen and (min-width: 992px) {
+  .nominatedProjects .wrapper-avatar {
+    margin-top: 32px;
+  }
+}
 .nominatedProjects__card {
   background: #FFFFFF;
   box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.12);
@@ -238,9 +246,6 @@ button, a {
 .nominatedProjects__card-chiapas {
   margin-bottom: 8px;
 }
-.nominatedProjects__card-avatar {
-  margin-top: 16px;
-}
 .nominatedProjects__card-avatar p {
   font-size: normal;
   font-style: normal;
@@ -263,6 +268,11 @@ button, a {
   line-height: 14px;
   padding: 5px 14px;
   border-radius: 16px;
+}
+@media screen and (min-width: 992px) {
+  .nominatedProjects__card .feature {
+    margin-top: 0;
+  }
 }
 .nominatedProjects__card .feature--dev {
   background: #F2994A;
